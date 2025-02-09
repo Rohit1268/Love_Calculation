@@ -1,0 +1,115 @@
+body {
+    background-color: rgb(241, 90, 171);
+    
+}
+.bodyq{
+    display: flex;
+}
+
+video#background-video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+    /* Ensures the video is behind other content */
+}
+
+.header{
+    color:rgb(230, 40, 103);
+    font-size: 50px;
+    text-align: center;
+    
+}
+
+.love {
+    height: 350px;
+    width: 560px;
+    box-shadow: 2px 2px 2px rgba(236, 81, 154, 0.829);
+    justify-content: center;
+    margin-left: 50%;
+    margin-top: 100px;
+    border-radius: 10px;
+    border: 2px solid #ff85c0;
+    background-image: url(./love1.jpg);
+}
+
+h2 {
+    color: rgb(216, 166, 216);
+    margin-top: 30px;
+    margin-left: 20px;
+    font-size: 35px;
+    margin-top: -10px;
+}
+
+.label {
+    margin-top: 10px;
+    margin-left: 22px;
+}
+
+input[type="text"] {
+    margin-top: 10px;
+    margin-left: 25px;
+    height: 30px;
+    width: 25;
+    font-style: italic;
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #ff85c0;
+}
+
+button {
+    margin-left: 70px;
+    background-color: rgba(224, 54, 105, 0.842);
+    height: 30px;
+    width: 90px;
+    border-radius: 10px;
+    font-size: large;
+
+}
+
+/*.result{
+    display: none;
+}*/
+
+.result {
+    display : none;
+    height: 350px;
+    width: 500px;
+    box-shadow: 2px 2px 2px rgba(236, 81, 154, 0.829);
+    justify-content: center;
+    margin-left: -800px;
+    margin-top: 50px;
+    border-radius: 10px;
+    border: 2px solid #ff85c0;
+    background-image: url(./love2.avif);
+}
+
+.result p {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+    color: rgb(245, 70, 70);
+    font-weight: bold;
+}
+
+#resulttext {
+    text-align: center;
+    margin-left: 0px;
+    padding: 10px;
+    font-size: 25px;
+    color: rgb(230, 40, 103);
+    margin-top: -10px;
+    font-weight: bold;
+    background-color:rgba(252, 230, 237, 0.651);
+}
+.button1{
+    margin-left: 40%;
+    margin-top: 50px;
+    background-color: rgba(224, 54, 105, 0.842);
+    height: 35px;
+    width: 100px;
+    border-radius: 10px;
+}
+
